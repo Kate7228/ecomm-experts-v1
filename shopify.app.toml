@@ -1,9 +1,9 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "3364eeff7818f5c233596498ec07fcad"
-name = "ecomm-experts-v1"
-handle = "ecomm-experts-v1"
-application_url = "https://surfaces-silk-standards-routers.trycloudflare.com"
+client_id = "0118e30dc18190f6208de554c319d549"
+name = "AIVA"
+handle = "aiva-2"
+application_url = "https://penetration-dump-hire-reg.trycloudflare.com"
 embedded = true
 
 [build]
@@ -11,7 +11,7 @@ include_config_on_deploy = true
 automatically_update_urls_on_dev = true
 
 [webhooks]
-api_version = "2025-04"
+api_version = "2025-07"
 
   [[webhooks.subscriptions]]
   topics = [ "app/uninstalled" ]
@@ -23,10 +23,10 @@ api_version = "2025-04"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products, read_orders, write_orders"
+scopes = "read_orders,read_products"
 
 [auth]
-redirect_urls = ["https://surfaces-silk-standards-routers.trycloudflare.com/auth/callback", "https://surfaces-silk-standards-routers.trycloudflare.com/auth/shopify/callback", "https://surfaces-silk-standards-routers.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://penetration-dump-hire-reg.trycloudflare.com/auth/callback", "https://penetration-dump-hire-reg.trycloudflare.com/auth/shopify/callback", "https://penetration-dump-hire-reg.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
